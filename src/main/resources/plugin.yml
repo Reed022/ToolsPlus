@@ -1,0 +1,6 @@
+name: ToolsPlus
+version: '${project.version}'
+main: me.reed.toolsplus.ToolsPlus
+api-version: 1.18
+authors: [ Reed22 ]
+description: ToolsPlus is a plugin that aims to imitate the Tinkers Construct mod in a very simple form. 
