@@ -78,26 +78,4 @@ public class ToolsmithTableMenu {
         modifyButton.setItemMeta(modifyButtonMeta);
         return modifyButton;
     }
-
-    public ItemStack getToolSlotItem() {
-        return inv.getItem(10);
-    }
-
-    public void setToolSlotItem(ItemStack tool) {
-        inv.setItem(10, tool);
-        updateMenu();
-    }
-
-    public ItemStack getIngredientSlotItem() {
-        return inv.getItem(12);
-    }
-
-    public void setIngredientSlotItem(ItemStack ingredient) {
-        inv.setItem(12, ingredient);
-        updateMenu();
-    }
-
-    public Inventory getInventory() {
-        return inv;
-    }
 }
